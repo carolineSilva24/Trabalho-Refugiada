@@ -27,7 +27,7 @@ body{
   display: flex;
   justify-content: space-between;
 }
-/* CSS para deixar o bloco da host e da refugiada juntas na página inicial*/
+/* CSS para deixar o bloco da host e da refugiada na mesma linha na página inicial*/
 .host_refugiada {
   text-align: center;
   display: flex;
