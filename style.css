@@ -41,10 +41,7 @@ body{
 .final {
   background-color:#e3e3e3;
   display: flex;
-}
-/* CSS para colocar os icones a direita na parte final da página inicial*/
-.icones { 
-  text-align: right;
+  justify-content: space-between;
 }
 /* CSS para fazer o menu inicial nas outras telas com a logo na frente, menos a página inicial*/
 .menu {
