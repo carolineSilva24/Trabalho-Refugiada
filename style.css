@@ -1,0 +1,96 @@
+/* CSS para a Logo na página inicial*/
+h1{
+  color: #0bb12d;
+  font-family: Comic Sans MS, Comic Sans, Neuton;
+  font-size:45px;
+  text-align: center;
+}
+/* CSS para o título na página inicial*/
+h2{
+  color: #e32b2b;
+  font-family:"Times New Roman", Times, serif;
+  font-size:30px;
+  margin-block-end: 0.3em;
+}
+/* CSS para o corpo do texto de todas as páginas*/
+body{
+  background-color: #cdbbe8;  
+  margin: 50px 75px 50px 75px;
+  font-family: arial;
+  font-size: 14px;
+  padding: 12px;
+}
+/* CSS para o primeiro menu na página inicial*/
+.menu_principal {
+  background-color:#e3e3e3;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+/* CSS para deixar o bloco da host e da refugiada juntas na página inicial*/
+.host_refugiada {
+  text-align: center;
+  display: flex;
+}
+/* CSS para deixar o bloco das doações e sobre o projeto centralizado na página inicial*/
+.como_ajudar,.sobre_projeto {
+  text-align: center;
+  padding: 8px;
+}
+/* CSS para fazer o "menu final" com o support na página inicial*/
+.final {
+  background-color:#e3e3e3;
+  display: flex;
+}
+/* CSS para colocar os icones a direita na parte final da página inicial*/
+.icones { 
+  text-align: right;
+}
+/* CSS para fazer o menu inicial nas outras telas com a logo na frente, menos a página inicial*/
+.menu {
+  background-color:#e3e3e3;
+  color:#0bb12d;
+  font-size: 18px;
+  padding: 7px;
+  display: flex;
+}
+/* CSS para o espaçamento de parágrafos*/
+p {
+  margin-block-start: 0em;
+  margin-block-end: 0.5em;
+}
+/* CSS para o título nas outras telas , menos a página inicial */
+.título{
+  color: #FFFFFF;
+  font-family:"Times New Roman", Times, serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+/* CSS para os detalhes no corpo do texto da página de cadastro da host e da refugiada*/
+.cadastro_refugiada,.cadastro_host {
+  margin-block-end: 0.5em;
+  font-size: 14px;
+}
+/* CSS para a parte de baixo na página de cadastro da host e da refugiada, para permitir que você vá direto até a tela de login*/
+.possui_conta{
+  width: 200px;
+  padding: 6px;
+  border: 2px solid #1c1c17;
+}
+/* CSS para os detalhes no corpo do texto da página de login*/
+.login {
+  line-height: 25px;
+}
+/* CSS para a parte de baixo na página de login, para permitir que você vá direto até a tela de cadastro da host ou da refugiada*/
+.fazer_cadastro{
+  width: 558px;
+  padding: 7px;
+  border: 2px solid #1c1c17;
+  margin-block-start: 0.5em;
+}
+/* CSS para o corpo de texto da tela de esqueci a senha*/
+.psenha{  
+  font-size: 17px;
+  margin-block-start: -0.5em;
+  margin-block-end: 0.5em; 
+}

@@ -1,0 +1,38 @@
+<!-- HTML para a página de login -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <title>Login</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <!-- link para poder colocar os icones na página-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head> 
+<body>
+  <!-- Menu inicial que deve aparecer em todas as telas, sem o botão entrar(login) por já está na página. -->
+  <div class="menu">
+    <p>Newhope</p>
+  <button onclick="inicio()">Tela inicial</button>
+  <button onclick="sobre()">Sobre nós</button>
+  <button onclick="host()">Ajude</button>
+  <button onclick="refugiada()">Quero ajuda</button>
+  <button onclick="documentação()">Suporte</button>
+  <button onclick="tradutor()"><i class="fa fa-globe"></i></button>
+    </div>
+   <!-- Tela de Login para entrar no site, caso você ja tenha se cadastrado -->
+  <p class= "título">Fazer login</p>
+   <div class="login">
+  Usuário: <input id= "in2" type= "text"><br>
+  Senha: <input id= "in2" type= "text"><br>
+   <p><a href="senha.html" target="_blank">Esqueceu a senha?</a></p> 
+    </div>
+    <!-- Quando apertar o botão, ele te levará para a tela do site que você pode ver suas informações-->
+   <input type="button" onclick="entrar()" value="Entrar" />
+    <div class="fazer_cadastro">
+  Novo no Newhope?
+    <button onclick="host()">Faça seu cadastro como host.</button>
+    <button onclick="refugiada()">Faça seu cadastro como refugiada.</button>
+    </div>
+  
+   <script src="script.js"></script>
+</body>
+</html>

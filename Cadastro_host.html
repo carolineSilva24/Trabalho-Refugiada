@@ -1,0 +1,51 @@
+ <!-- HTML para a página de cadastro da host -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <title>Host</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <!-- link para poder colocar os icones na página-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <!-- Menu inicial que deve aparecer em todas as telas, sem o botão Ajude(host) por já está na página -->
+   <div class="menu">
+    <p>NewHope</p>
+  <button onclick="inicio()">Tela inicial</button>
+  <button onclick="Entrar()">Entrar</button>
+  <button onclick="sobre()">Sobre nós</button>
+  <button onclick="refugiada()">Quero ajuda</button>
+  <button onclick="documentação()">Suporte</button>
+  <button onclick="tradutor()"><i class="fa fa-globe"></i></button>
+    </div>
+  
+   <p class="título">Cadastro Host</p>
+    <div class="cadastro_host">
+   <p>Você escolheu a opção:</p>
+   <p><input type= "radio" name= "login" value="host"checked > Desejo abrigar uma refugiada <br></p>
+      <p>Insira seus dados abaixo:</p>
+  <input id= "in2" type= "text" placeholder = Nome ><br>
+  <input id= "in2" type= "text" placeholder = Email><br>
+  <input id= "in2" type= "text" placeholder = Senha><br>
+  <input id= "in2" type= "number" placeholder = CPF><br>
+  <input id= "in2" type= "number" placeholder = CEP><br>
+  <input id= "in2" type= "number" placeholder = Telefone><br>
+  <input id= "in2" type= "date" placeholder = Data nascimento><br>
+  
+  <p>Foto do documento com foto:</p>
+  <input id="documento" type="file" accept="imagem/*"> 
+  <p>Foto do comprovante de residencia:</p>
+  <input id="comprovante" type="file" accept="imagem/*">
+   </div>
+  <p><button onclick="back()">Voltar</button>
+  <button onclick="cadastrar()">Cadastrar</button></p>
+  
+  <!-- Quando apertar o botão, te levará para a tela de Login -->
+  <div class="possui_conta">
+  Já possuí uma conta?
+  <button onclick="Entrar()">Entrar</button>
+  </div>
+  
+   <script src="script.js"></script>
+</body>
+</html>
