@@ -50,6 +50,7 @@ body{
   font-size: 1.8vw;
   padding: 7px;
   display: flex;
+  justify-content: space-between;
 }
 /* CSS para o espaçamento de parágrafos*/
 p {
