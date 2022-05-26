@@ -9,7 +9,7 @@
 </head> 
 <body>
   <!-- Menu inicial que deve aparecer em todas as telas, sem o botão entrar(login) por já está na página. -->
-  <div class="menu">
+   <div class="menu">
     <p>Newhope</p>
   <button onclick="inicio()">Tela inicial</button>
   <button onclick="sobre()">Sobre nós</button>
@@ -18,7 +18,9 @@
   <button onclick="documentação()">Suporte</button>
   <button onclick="tradutor()"><i class="fa fa-globe"></i></button>
     </div>
-   <!-- Tela de Login para entrar no site, caso você ja tenha se cadastrado -->
+  <!-- Div para colocar as informações de login no centro da página -->
+   <div class="login_box">
+  <!-- Tela de Login para entrar no site, caso você ja tenha se cadastrado -->
   <p class= "título">Fazer login</p>
    <div class="login">
   Usuário: <input id= "in2" type= "text"><br>
@@ -33,7 +35,7 @@
     <button onclick="host()">Faça seu cadastro como host.</button>
     <button onclick="refugiada()">Faça seu cadastro como refugiada.</button>
     </div>
-  
+   </div>
    <script src="script.js"></script>
 </body>
 </html>
