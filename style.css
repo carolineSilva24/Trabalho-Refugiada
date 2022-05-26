@@ -80,7 +80,7 @@ p {
 }
 /* CSS para a parte de baixo na página de login, para permitir que você vá direto até a tela de cadastro da host ou da refugiada*/
 .fazer_cadastro{
-  width: 558px;
+  width: 550px;
   padding: 7px;
   border: 2px solid #1c1c17;
   margin-block-start: 0.5em;
@@ -106,7 +106,7 @@ p {
   border: 2px solid #1c1c17;
   margin-block-start: 1.2em;
   padding: 6px;
-  width: 620px; 
+  width: 568px; 
   left: 50%;
   position: absolute;
   transform: translateX(-50%);  
