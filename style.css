@@ -2,14 +2,14 @@
 h1{
   color: #0bb12d;
   font-family: Comic Sans MS, Comic Sans, Neuton;
-  font-size:45vw;
+  font-size:4.5vw;
   text-align: center;
 }
 /* CSS para o título na página inicial*/
 h2{
   color: #e32b2b;
   font-family:"Times New Roman", Times, serif;
-  font-size:30vw;
+  font-size:3.0vw;
   margin-block-end: 0.3em;
 }
 /* CSS para o corpo do texto de todas as páginas*/
@@ -17,7 +17,7 @@ body{
   background-color: #cdbbe8;  
   margin: 50px 75px 50px 75px;
   font-family: arial;
-  font-size: 14vw;
+  font-size: 1.4vw;
   padding: 12px;
 }
 /* CSS para o primeiro menu na página inicial*/
@@ -47,7 +47,7 @@ body{
 .menu {
   background-color:#e3e3e3;
   color:#0bb12d;
-  font-size: 18vw;
+  font-size: 1.8vw;
   padding: 7px;
   display: flex;
 }
@@ -60,13 +60,13 @@ p {
 .título{
   color: #FFFFFF;
   font-family:"Times New Roman", Times, serif;
-  font-size: 30vw;
+  font-size: 3.0vw;
   font-weight: bold;
 }
 /* CSS para os detalhes no corpo do texto da página de cadastro da host e da refugiada*/
 .cadastro_refugiada,.cadastro_host {
   margin-block-end: 0.5em;
-  font-size: 14vw;
+  font-size: 1.4vw;
 }
 /* CSS para a parte de baixo na página de cadastro da host e da refugiada, para permitir que você vá direto até a tela de login*/
 .possui_conta{
@@ -87,7 +87,7 @@ p {
 }
 /* CSS para o corpo de texto da tela de esqueci a senha*/
 .psenha{  
-  font-size: 17vw;
+  font-size: 1.7vw;
   margin-block-start: -0.5em;
   margin-block-end: 0.5em; 
 }
