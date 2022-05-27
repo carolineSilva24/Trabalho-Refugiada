@@ -27,15 +27,10 @@ body{
   display: flex;
   justify-content: space-between;
 }
-/* CSS para deixar o bloco da host e da refugiada na mesma linha na página inicial*/
-.host_refugiada {
-  text-align: center;
-  display: flex;
-}
-/* CSS para deixar o bloco das doações e sobre o projeto centralizado na página inicial*/
-.como_ajudar,.sobre_projeto {
-  text-align: center;
-  padding: 8px;
+/* CSS para deixar as divs centralizados na página inicial*/
+.como_ajudar,.sobre_projeto,.host,.refugiada{
+  text-align:center;
+  padding: 5px;
 }
 /* CSS para fazer o "menu final" com o support na página inicial*/
 .final {
