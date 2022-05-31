@@ -1,4 +1,4 @@
-// Tag que permite ao ser clicado no botão ele mudar de tela
+// Tags que permitem mudar de tela ao ser clicado no botão 
 function host(){
   location.replace("Cadastro_host.html")
 }
@@ -14,7 +14,7 @@ function back(){
 function inicio(){
   location.replace("index.html")
 }
-// Tag para colocar um alerta, se clicar em algum dos botões que tem função mas não tem uma pagina só para ele
+// Tags para colocar um alerta, se clicar em algum dos botões que tem função,porque não tem uma pagina só para ele
 function entrar() {
 alert("A tela a seguir está em construção. Mas quando for feita, após confirmação dos dados, você seguirá para a tela do site em que você consiga ver suas informações.")
   ;}
@@ -39,7 +39,7 @@ alert("A tela a seguir está em construção. Mas quando for feita, irá aparece
 function continuar() {
 alert("A tela a seguir está em construção. Mas quando for feita, o site enviará um email para você pedindo que você altere sua senha por la.")
   ;}
-// Tag que permite colocar um arquivo no cadastro da host e da refugiada 
+// Tags que permitem colocar um arquivo no cadastro da host e da refugiada 
 var inPerfil = document.getElementById("documento")
 var inPerfil = document.getElementById("comprovante")
 var inPerfil = document.getElementById("registro")
