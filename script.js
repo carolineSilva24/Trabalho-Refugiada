@@ -15,7 +15,7 @@ function inicio(){
   location.replace("index.html")
 }
 // Tags para colocar um alerta, se clicar em algum dos botões que tem função,porque não tem uma pagina só para ele
-function entrar() {
+function logar() {
 alert("A tela a seguir está em construção. Mas quando for feita, após confirmação dos dados, você seguirá para a tela do site em que você consiga ver suas informações.")
   ;}
 function doar() {
@@ -24,7 +24,7 @@ alert("A tela a seguir está em construção. Mas quando for feita irá aparecer
 function sobre() {
 alert("A tela a seguir está em construção. Mas quando for feita irá aparecer uma tela informando sobre a ONG e seus projetos.")
   ;}
-function documentação() {
+function suporte() {
 alert("A tela a seguir está em construção. Mas quando for feita irá aparecer uma tela informando sobre as dúvidas e perguntas mais frequentes.")
   ;}
 function tradutor() {
