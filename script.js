@@ -31,7 +31,7 @@ function tradutor() {
 alert("A tela a seguir está em construção. Mas quando for feita irá aparecer uma aba para poder escolher em qual idioma você prefere para ler o site.")
   ;}
 function cadastrar() {
-alert("A tela a seguir está em construção. Mas quando for feita, após confirmação dos dados, você seguirá para a tela do site em que você consiga ver suas informações.")
+alert("Cadastro feito com sucesso!! A tela a seguir está em construção. Mas quando for feita, após confirmação dos dados, você seguirá para a tela do site em que você consiga ver suas informações.")
   ;}
 function senha() {
 alert("A tela a seguir está em construção. Mas quando for feita, irá aparecer uma tela para você escrever seu email e recuperar/alterar a senha.")
