@@ -9,44 +9,42 @@
 </head>
 <body>
   <!-- Menu inicial que deve aparecer em todas as telas, sem o botão Ajude(host) por já está na página -->
-   <div class="menu">
-    <p>NewHope</p>
-  <button onclick="inicio()">Tela inicial</button>
-  <button onclick="Entrar()">Entrar</button>
-  <button onclick="sobre()">Sobre nós</button>
-  <button onclick="refugiada()">Quero ajuda</button>
-  <button onclick="suporte()">Suporte</button>
-  <button onclick="tradutor()"><i class="fa fa-globe"></i></button>
-    </div>
-  <!-- Div para colocar as informações de cadastro da host no centro da página-->
-  <div class="cadastro">
-   <p class="título">Cadastro Host</p>
-    <div class="cadastro_host">
-   <p>Você escolheu a opção:</p>
-   <p><input type= "radio" name= "login" value="host"checked > Desejo abrigar uma refugiada <br></p>
-      <p>Insira seus dados abaixo:</p>
-  <input id= "name" type= "text" placeholder = Nome ><br>
-  <input id= "email" type= "email" placeholder = Email><br>
-  <input id= "password" type= "password" placeholder = Senha><br>
-  <input id= "cpf" type= "text" placeholder = CPF><br>
-  <input id= "cep" type= "number" placeholder = CEP><br>
-  <input id= "phone" type= "tel" placeholder = Telefone><br>
-  <input id= "date" type= "date" placeholder = Data nascimento><br>  
-  
+<div class="menu">
+  <p>NewHope</p>
+   <button onclick="inicio()">Tela inicial</button>
+   <button onclick="Entrar()">Entrar</button>
+   <button onclick="sobre()">Sobre nós</button>
+   <button onclick="refugiada()">Quero ajuda</button>
+   <button onclick="suporte()">Suporte</button>
+   <button onclick="tradutor()"><i class="fa fa-globe"></i></button>
+  </div>
+ <!-- Div para colocar as informações de cadastro da host no centro da página-->
+<div class="cadastro">
+  <p class="título">Cadastro Host</p>
+<div class="cadastro_host">
+  <p>Você escolheu a opção:</p>
+  <p><input type= "radio" name= "login" value="host"checked > Desejo abrigar uma refugiada <br></p>
+  <p>Insira seus dados abaixo:</p>
+   <input id= "name" type= "text" placeholder = Nome ><br>
+   <input id= "email" type= "email" placeholder = Email><br>
+   <input id= "password" type= "password" placeholder = Senha><br>
+   <input id= "cpf" type= "text" placeholder = CPF><br>
+   <input id= "cep" type= "number" placeholder = CEP><br>
+   <input id= "phone" type= "tel" placeholder = Telefone><br>
+   <input id= "date" type= "date" placeholder = Data nascimento><br>  
   <p>Foto do documento com foto:</p>
-  <input id="documento" type="file" accept="imagem/*"> 
+   <input id="documento" type="file" accept="imagem/*"> 
   <p>Foto do comprovante de residencia:</p>
-  <input id="comprovante" type="file" accept="imagem/*">
-   </div>
-  <p><button onclick="back()">Voltar</button>
-  <button onclick="cadastrar()">Cadastrar</button></p>
-  
-  <!-- Quando apertar o botão, te levará para a tela de Login -->
-  <div class="possui_conta">
+   <input id="comprovante" type="file" accept="imagem/*">
+  </div>
+   <p><button onclick="back()">Voltar</button>
+   <button onclick="cadastrar()">Cadastrar</button></p>
+ <!-- Quando apertar o botão, te levará para a tela de Login -->
+<div class="possui_conta">
   Já possuí uma conta?
-  <button onclick="Entrar()">Entrar</button>
+   <button onclick="Entrar()">Entrar</button>
   </div>
  </div>
-   <script src="script.js"></script>
+ <script src="script.js"></script>
 </body>
 </html>
