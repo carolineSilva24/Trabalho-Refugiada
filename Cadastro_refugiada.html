@@ -3,49 +3,46 @@
 <html lang="pt-br">
 <head>
   <title>Refugiada</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="style.css" rel="stylesheet" type="text/css"/>
   <!-- link para poder colocar os icones na página-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-   <!-- Menu inicial que deve aparecer em todas as telas, sem o botão Quero ajuda(refugiada) por já está na página. -->
-  <div class="menu">
-    <p>NewHope</p>
-  <button onclick="inicio()">Tela inicial</button>
-  <button onclick="Entrar()">Entrar</button>
-  <button onclick="sobre()">Sobre nós</button>
-  <button onclick="host()">Ajude</button>
-  <button onclick="suporte()">Suporte</button>
-  <button onclick="tradutor()"><i class="fa fa-globe"></i></button>
-    </div>
+ <!-- Menu inicial que deve aparecer em todas as telas, sem o botão Quero ajuda(refugiada) por já está na página. -->
+<div class="menu">
+  <p>NewHope</p>
+   <button onclick="inicio()">Tela inicial</button>
+   <button onclick="Entrar()">Entrar</button>
+   <button onclick="sobre()">Sobre nós</button>
+   <button onclick="host()">Ajude</button>
+   <button onclick="suporte()">Suporte</button>
+   <button onclick="tradutor()"><i class="fa fa-globe"></i></button>
+  </div>
  <!-- Div para colocar as informações de cadastro da refugiada no centro da página-->
-  <div class="cadastro">
-    <p class="título">Cadastro Refugiada</p>
-  <div class="cadastro_refugiada">
-    <p>Você escolheu a opção:</p>
+<div class="cadastro">
+  <p class="título">Cadastro Refugiada</p>
+<div class="cadastro_refugiada">
+  <p>Você escolheu a opção:</p>
   <p><input type= "radio" name= "login" value="refugiada" checked> Preciso de um abrigo <br> </p>
   <p>Insira seus dados abaixo:</p>
    <input id= "name" type= "text" placeholder = Nome ><br>
-  <input id= "email" type= "email" placeholder = Email><br>
-  <input id= "password" type= "password" placeholder = Senha><br>
-  <input id= "phone" type= "tel"  placeholder = Telefone><br>
-  <input id= "date" type= "date" placeholder = Data nascimento><br>  
-    
+   <input id= "email" type= "email" placeholder = Email><br>
+   <input id= "password" type= "password" placeholder = Senha><br>
+   <input id= "phone" type= "tel"  placeholder = Telefone><br>
+   <input id= "date" type= "date" placeholder = Data nascimento><br>   
   <p>Foto do comprovante de viagem:</p>
-  <input id="comprovante" type="file" accept="imagem/*">
+   <input id="comprovante" type="file" accept="imagem/*">
   <p>Foto do Registro Nacional do Estrangeiro:</p>
-  <input id="registro" type="file" accept="imagem/*">
-   </div>
+   <input id="registro" type="file" accept="imagem/*">
+  </div>
   <p><button onclick="back()">Voltar</button>
-  <button onclick="cadastrar()">Cadastrar</button></p>
-  
-   <!-- Quando apertar o botão, te levará para a tela de Login -->
-  <div class="possui_conta">
+   <button onclick="cadastrar()">Cadastrar</button></p>
+ <!-- Quando apertar o botão, te levará para a tela de Login -->
+<div class="possui_conta">
   Já possuí uma conta?
-    <button onclick="Entrar()">Entrar</button>
-    </div>
+   <button onclick="Entrar()">Entrar</button>
+  </div>
  </div>
-  
-  <script src="script.js"></script>
+ <script src="script.js"></script>
 </body>
 </html>
